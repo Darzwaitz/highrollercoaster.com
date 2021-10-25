@@ -1,0 +1,9 @@
+assets/
+img/
+node_modules/
+package-lock.json
+*.jpg
+img
+*.mp4
+*.webm
+fonts/
