@@ -17,9 +17,18 @@
     --line: 1px solid var(--colour-grey-light-2);
 }
 
+$bp-largest: 75em; // 1200px / 16
+$bp-large: 68.75em; // 1100px / 16
+$bp-medium: 56.25em; // 900px / 16
+$bp-small: 37.5em; // 600px / 16
+
 html {
     // 1 rem = 10px - 16 / 10
     font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-large){
+        font-size: 50%;
+    }
 
     // @include respond(phone){
     //     font-size: 50%;
